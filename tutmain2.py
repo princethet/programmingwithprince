@@ -1,2 +1,2 @@
 import tutmain1
-print("__name__ in tutmain2.py is set to "+__name__)
+print(tutmain1.add(5, 3))
