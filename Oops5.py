@@ -19,6 +19,8 @@ class Employee:
         # print(params)
         # return cls(params[0], params[1], params[2])
         return cls(*string.split("-"))
+
+
 prince = Employee("Prince", 23456, "khalasi")
 harry = Employee("Harry", 2786, "Instructor")
 rohan = Employee.from_str("Karan-480-student") 

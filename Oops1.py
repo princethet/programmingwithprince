@@ -1,6 +1,7 @@
 # Classes - Template
 # Object - Instance of the class 
 #DRY - Do not Repeat Yourself
+# Oops = Object oriented programmings
 
 class Student:
     pass

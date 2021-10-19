@@ -25,6 +25,8 @@
 
 import time
 ti = time.gmtime()
+# python time method time.asctime() is used to convert a tuple or a time.struct_time object representing a time
+# as returned by time.gmtime() or localtime() method to a string of the following form:
 print("Time calculated using asctime() is: ", end = '')
 print(time.asctime(ti))
 

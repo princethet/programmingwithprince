@@ -1,6 +1,6 @@
-# Public - 
-# Protected -
-# Private - 
+# Public - anyone can see or access
+# Protected - only subclasses of this file can access.
+# Private -  only for the particular(specific) class and can't be printed normally.
 
 class Employee:
     var = 8

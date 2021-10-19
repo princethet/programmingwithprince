@@ -25,4 +25,4 @@ def funargs(normal, *argsrohan, **kwargs):
         print(item)
 har = ['Harry', 'rohan', 'skillf', 'hammad', 'shivoham']
 normal = "I am a normal argument:"
-funargs(normal, *har.title())
+funargs(normal, *har)

@@ -21,6 +21,9 @@
 # print(math.tan(0.23))
 # print(math.factorial(7))
 
+# UNIX EPOCH, JANUARY 1ST 1970: This is the date when the time started for unix computers and that timestamp is 
+# marked as '0'. Any time since that date is calculated based on the number of seconds elapsed.
+
 import datetime
 from datetime import date
 import time

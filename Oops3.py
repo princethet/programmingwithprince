@@ -10,6 +10,6 @@ class Employee:
         return f"Name is {self.name}. Salary is {self.salary} and role is {self.role}."
 
 
-
+prince = Employee("Prince", 23456, "khalasi")
 harry = Employee("Harry", 2786, "Instructor")
 print(harry.salary)

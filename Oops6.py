@@ -22,7 +22,7 @@ class Employee:
 
     @staticmethod
     def printgood(string):
-        print("This is good" + string)
+        print("This is good " + string)
 
 prince = Employee("Prince", 23456, "khalasi")
 harry = Employee("Harry", 2786, "Instructor")
